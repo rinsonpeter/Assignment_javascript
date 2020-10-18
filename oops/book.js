@@ -33,8 +33,8 @@ var bk=arr.filter(ob=>ob.price>250)
 for (book of bk){
     console.log(book.name)
 }
-var na=arr.map(obj=>(obj.name).toUpperCase)
-console.log(na)
+//var na=arr.map(obj=>(obj.name).toUpperCase)
+//console.log(na)
 //var bkj=arr.reduce((obj1,obj2)=>obj1.price>obj2.price?obj1.price:obj2.price)
 //console.log("bkj"+bkj)
 
